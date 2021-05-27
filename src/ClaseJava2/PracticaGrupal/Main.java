@@ -18,6 +18,7 @@ public class Main {
         System.out.println(StringUtil.rtrim("     holaa   jjjjj    "));
         System.out.println(StringUtil.trim("     holaa   "));
 
+        System.out.println(StringUtil.indexOfN("John|Paul|George|Ringo",'|',2));
 
 
     }

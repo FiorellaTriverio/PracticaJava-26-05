@@ -129,6 +129,23 @@ public class StringUtil
         return nuevaS;
     }
 
+    public static int indexOfN(String s,char c,int n) {
 
+        int pos=0;
+        int cont=0;
+
+        for(int i=0; i<s.length(); i++){
+            if(s.charAt(i)==c){
+                cont++;
+                pos=i;
+            }
+
+            if(cont==n){
+                break;
+            }
+        }
+
+        return pos;
+    }
 
 }
