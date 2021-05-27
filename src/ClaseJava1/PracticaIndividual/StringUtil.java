@@ -88,6 +88,47 @@ public class StringUtil
 
     }
 
+    /**
+     * Clase java 2 - Grupal
+     */
+
+    public static String rpad(String s, int n, char c)
+    {
+        String extra = "";
+
+        extra = replicate('0', n);
+
+        return s+extra;
+    }
+
+    public static String ltrim(String s){
+
+        int i = 0;
+
+        while(i<s.length() && s.charAt(i)==' '){
+            i++;
+        }
+
+        return s.substring(i, s.length());
+    }
+
+    public static String rtrim(String s){
+
+        int i = s.length()-1;
+
+        while(i>0 && s.charAt(i)==' '){
+            i--;
+        }
+
+        return s.substring(0, i);
+    }
+
+    public static String trim(String s){
+        String nuevaS = ltrim(s);
+        nuevaS = rtrim(nuevaS);
+        return nuevaS;
+    }
+
 
 
 }
