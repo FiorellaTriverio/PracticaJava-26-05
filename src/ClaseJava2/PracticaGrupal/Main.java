@@ -20,6 +20,23 @@ public class Main {
 
         System.out.println(StringUtil.indexOfN("John|Paul|George|Ringo",'|',2));
 
+        Fraccion f1 = new Fraccion(250,8);
+        Fraccion f2 = new Fraccion(58, 22);
+        System.out.println("Suma: " + f1.sumar(f2));
+
+        f1 = new Fraccion(250,8);
+        f2 = new Fraccion(58, 22);
+        System.out.println("Resta: " + f2.restar(f1));
+
+        f1 = new Fraccion(250,8);
+        f2 = new Fraccion(58, 22);
+        System.out.println("Multiplicar: " + f2.multiplicar(f1));
+
+        f1 = new Fraccion(250,8);
+        f2 = new Fraccion(58, 22);
+        System.out.println("Dividir: " + f1.dividir(f2));
+
+
 
     }
 
