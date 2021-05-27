@@ -1,4 +1,4 @@
-package PracticaIndividual;
+package ClaseJava1.PracticaIndividual;
 
 public class StringUtil
 {
@@ -87,5 +87,7 @@ public class StringUtil
         }
 
     }
+
+
 
 }

@@ -1,4 +1,4 @@
-package PracticaGrupal;
+package ClaseJava1.PracticaGrupal;
 
 import java.util.Scanner;
 

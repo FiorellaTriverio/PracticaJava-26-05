@@ -1,4 +1,4 @@
-package PracticaIndividual;
+package ClaseJava1.PracticaIndividual;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,7 +6,6 @@ import java.util.Map;
 
 public class RadixSort
 {
-
     public static void main(String[] args)
     {
         int arr[] = {16223,898,13,906,235,23,9,1532,6388,2511,8};
